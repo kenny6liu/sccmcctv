@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="sccmcctv:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="sccmcctv.war">
+      <element id="artifact" artifact-name="sccmcctv:war exploded" />
+    </root>
+  </artifact>
+</component>
