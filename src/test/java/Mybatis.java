@@ -1,7 +1,8 @@
-import com.kennysoft.model.XPagePara;
+
+
 import com.kennysoft.model.*;
-import com.kennysoft.model.XQueryResult;
 import com.kennysoft.service.IAdmAccount;
+import com.kennysoft.service.IKsMenu;
 import org.apache.log4j.Logger;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -59,6 +60,15 @@ public class Mybatis {
         }
 */
     }
+    @Resource
+    private IKsMenu menuService;
+    @Test
+    public void mybatis_total() throws  Exception
+    {
+        XQuery xquery = new XQuery();
+       long ret  = menuService.total(xquery);
+    }
+
     @Test
     public void mybatis_cust_method() throws Exception
     {

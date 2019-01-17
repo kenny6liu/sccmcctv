@@ -19,10 +19,10 @@ public interface XIServiceView<T>  {
 
     /**
      * 根据条件集统计记录数据
-     * @param queries
+     * @param xQueries
      * @return
      */
-    public long total(List<XQuery> queries);
+    public long total(List<XQuery> xQueries);
 
     /**
      * 分页查询对象集
@@ -43,12 +43,12 @@ public interface XIServiceView<T>  {
 
     /**
      * 根据条件分页查询
-     * @param queries 查询多条件
+     * @param xQueries 查询多条件
      * @param xPagePara 分页参数
      * @param xOrder 排序参数
      * @return 返回含有满足条件总及当前面的对象集
      */
-    public XQueryResult<T> list(List<XQuery> queries, XPagePara xPagePara, XOrder xOrder);
+    public XQueryResult<T> list(List<XQuery> xQueries, XPagePara xPagePara, XOrder xOrder);
 
     /**
      *
@@ -61,10 +61,10 @@ public interface XIServiceView<T>  {
 
     /**
      *
-     * @param queries 多条件
+     * @param xQueries 多条件
      * @param xPagePara 分页参数
      * @param xOrders  排序多条件
      * @return 返回含有满足条件总及当前面的对象集
      */
-    public XQueryResult<T> list(List<XQuery> queries, XPagePara xPagePara, List<XOrder> xOrders);
+    public XQueryResult<T> list(List<XQuery> xQueries, XPagePara xPagePara, List<XOrder> xOrders);
 }

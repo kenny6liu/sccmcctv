@@ -1,4 +1,6 @@
 package com.kennysoft.service;
 
-public interface IKsMenu {
+import com.kennysoft.model.KsMenu;
+
+public interface IKsMenu extends XIServiceBase<KsMenu>{
 }

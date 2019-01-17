@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<root>
+    <menu text="资源管理" value="resourceMgr" order="1" icon="">
+        <menu text="下载管理" value="down" order="1" icon=""></menu>
+        <menu text="待入库列表" value="faile" order="2" icon=""></menu>
+        <menu text="已入库列表" value="success" order="3" icon=""></menu>
+    </menu>
+    <menu text="工单管理" value="worksheetMgr" order="2" icon="">
+        <menu text="待处理" value="init" order="1" icon=""></menu>
+        <menu text="错误列表" value="faile" order="2" icon=""></menu>
+        <menu text="成功列表" value="success" order="3" icon=""></menu>
+    </menu>
+    <menu text="支付管理" value="paymentMgr" order="3" icon="">
+        <menu text="包月订购" value="batch" order="1" icon=""></menu>
+        <menu text="单个订购" value="single" order="2" icon=""></menu>
+    </menu>
+    <menu text="" value="" order="" icon="9">
+        <menu text="用户管理" value="admin" order="1" icon=""></menu>
+        <menu text="角色管理" value="role" order="2" icon=""></menu>
+        <menu text="FTP设置" value="ftpcfg" order="3" icon=""></menu>
+        <menu text="字典管理" value="dictionary" order="4" icon=""></menu>
+        <menu text="菜单管理" value="menu" order="5" icon=""></menu>
+        <menu text="订购设置" value="order" order="6" icon=""></menu>
+    </menu>
+</root>

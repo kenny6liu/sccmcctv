@@ -6,7 +6,179 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c29f4a54-0b79-4915-8b4f-f6dec592c668" name="Default" comment="" />
+    <list default="true" id="c29f4a54-0b79-4915-8b4f-f6dec592c668" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/comm/EncryptUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/comm/ExampleUitl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ContentClickMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ContentDownMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ContentOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ContentOriginMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ContentPublishMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/HtmlNaviMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/InjectionRequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsAdminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsRole2adminMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsRole2menuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/NotifyRequestMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjMappingMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjMovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjObjectMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjProgramMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjSeriesMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/OrderAccountMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/PreferentinalActionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/SysActionMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/SysDictionaryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/SysUserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/WsLogMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentClick.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentDownExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentOrderExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentOrigin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentOriginExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentPublish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentPublishExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/HtmlNavi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/HtmlNaviExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/InjectionRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/InjectionRequestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsAdmin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsAdminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsMenuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsRole2admin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsRole2adminExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsRole2menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsRole2menuExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsRoleExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/NotifyRequest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/NotifyRequestExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjMapping.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjMappingExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjMovie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjMovieExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjObject.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjObjectExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjProgram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjProgramExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjSeries.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ObjSeriesExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/OrderAccount.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/OrderAccountExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/PreferentinalAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/PreferentinalActionExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/SysAction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/SysDictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/SysDictionaryExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/SysUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/TmpMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/WsLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/WsLogExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IKsMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/KsMenuImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ContentClickMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ContentDownMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ContentOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ContentOriginMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ContentPublishMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/HtmlNaviMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/InjectionRequestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/KsAdminMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/KsMenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/KsRoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/NotifyRequestMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ObjMappingMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ObjMovieMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ObjObjectMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ObjProgramMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/ObjSeriesMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/OrderAccountMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/PreferentinalActionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/SysActionMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/SysDictionaryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/mapping/WsLogMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/InitData.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_1_41.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_dbcp_commons_dbcp_1_2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_fileupload_commons_fileupload_1_3_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_pool_commons_pool_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__dom4j_dom4j_1_6_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_javaee_api_7_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jaxen_jaxen_1_1_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_11.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_17.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_36.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpclient_4_5_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_httpcomponents_httpcore_4_4_9.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_7_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_core_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_codehaus_jackson_jackson_mapper_asl_1_9_13.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_generator_mybatis_generator_core_1_3_6.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_18.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_log4j12_1_7_18.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_1_0_1_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_1_0_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_2_5_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sccmcctv.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sccmcctv.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/AdmAccountMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/LogsMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/TvPlayMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/AdmAccount.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/AdmAccountExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/SysUserExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/Logs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/LogsExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentClickExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/TvPlay.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/TvPlayExample.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/model/SysActionExample.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IAdmAccount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IAdmAccount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceBase.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/AdmAccountMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/SysUserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/LogsMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/KsRole2adminMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/TvPlayMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/KsRole2menuMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/GenLimit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GenLimit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/Mybatis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Mybatis.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/target/" />
@@ -33,188 +205,90 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="AdmAccountController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java">
+      <file leaf-file-name="KsMenuImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/KsMenuImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="792">
-              <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Controller.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mybatis.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/Mybatis.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdmAccountMapper.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/AdmAccountMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mvc.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1441">
-              <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-mybatis.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAutowireCapableBeanFactory.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
-              <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
+            <state relative-caret-position="630">
+              <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
               <folding>
-                <marker date="1518838257403" expanded="false" signature="0:104" ph="/.../" />
-                <marker date="1518838257403" expanded="false" signature="165:3356" ph="..." />
-                <marker date="1518838257403" expanded="true" signature="4033:4746" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="4825:4902" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="4990:5057" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="5121:5132" ph=" { " />
-                <marker date="1518838257403" expanded="false" signature="5166:5172" ph=" }" />
-                <marker date="1518838257403" expanded="true" signature="5266:5337" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="5405:5416" ph=" { " />
-                <marker date="1518838257403" expanded="false" signature="5452:5458" ph=" }" />
-                <marker date="1518838257403" expanded="true" signature="5536:5607" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="5703:5792" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="5845:5856" ph=" { " />
-                <marker date="1518838257403" expanded="false" signature="5894:5900" ph=" }" />
-                <marker date="1518838257403" expanded="false" signature="5957:5968" ph=" { " />
-                <marker date="1518838257403" expanded="false" signature="6010:6016" ph=" }" />
-                <marker date="1518838257403" expanded="true" signature="6094:6727" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="6799:7068" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="7120:7510" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="7604:8453" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="8563:8663" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="8779:8991" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="9105:10142" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="9572:9646" ph="run() → {" />
-                <marker date="1518838257403" expanded="false" signature="9833:9856" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="10269:10787" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="10889:11176" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="11249:11342" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="11466:11892" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="12015:12440" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="12491:12621" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="12740:14144" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="14248:18319" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="15455:15550" ph="getObject() → {" />
-                <marker date="1518838257403" expanded="false" signature="15674:15693" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="18424:19372" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="19481:19936" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="20049:24420" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="24508:26476" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="24531:24615" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="24590:24605" ph="{}" />
-                <marker date="1518838257403" expanded="false" signature="25241:25379" ph="doWith(method) → {" />
-                <marker date="1518838257403" expanded="false" signature="25696:25723" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="26575:27365" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="27471:28698" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="28807:29858" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="30001:30685" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="30776:31471" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="31596:32162" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="32265:33855" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="33991:34716" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="34813:35725" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="34978:35052" ph="run() → {" />
-                <marker date="1518838257403" expanded="false" signature="35236:35259" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="35847:35961" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="36097:36208" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="36299:39458" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="39582:40534" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="40658:42702" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="42802:43432" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="43544:44114" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="44211:44651" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="44728:44943" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="45111:45907" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="46021:49638" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="49754:50177" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="50281:51373" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="50376:50446" ph="run() → {" />
-                <marker date="1518838257403" expanded="false" signature="50588:50607" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="51441:51913" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="52029:53397" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="52508:52612" ph="run() → {" />
-                <marker date="1518838257403" expanded="false" signature="52749:52776" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="53518:55723" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="54582:54682" ph="run() → {" />
-                <marker date="1518838257403" expanded="false" signature="54804:54827" ph="}" />
-                <marker date="1518838257403" expanded="false" signature="54903:55007" ph="run() → {" />
-                <marker date="1518838257403" expanded="false" signature="55122:55149" ph="}" />
-                <marker date="1518838257403" expanded="true" signature="55811:55900" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="55954:56058" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="56149:56396" ph="{...}" />
-                <marker date="1518838257403" expanded="true" signature="56249:56310" ph="{...}" />
-                <marker date="1518838257403" expanded="false" signature="56353:56368" ph=" { " />
-                <marker date="1518838257403" expanded="false" signature="56380:56390" ph=" }" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="XIServiceBase.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceBase.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2664">
-              <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
-              <folding />
+            <state relative-caret-position="555">
+              <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="web.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <file leaf-file-name="XIServiceView.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceView.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-144">
-              <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="35" />
-              <folding />
+            <state relative-caret-position="239">
+              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <file leaf-file-name="KsMenuExample.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsMenuExample.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
+            <state relative-caret-position="705">
+              <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
               <folding>
-                <element signature="n#project#0;n#!!top" expanded="false" />
+                <element signature="e#1063#1064#0" expanded="true" />
+                <element signature="e#1119#1120#0" expanded="true" />
+                <element signature="e#1367#1368#0" expanded="true" />
+                <element signature="e#1417#1418#0" expanded="true" />
+                <element signature="e#24016#24017#0" expanded="true" />
+                <element signature="e#24047#24048#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KsMenuMapper.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsMenuMapper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="885">
+              <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdmAccountImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1110">
+              <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ExampleUitl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/comm/ExampleUitl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mybatis.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="825">
+              <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -226,9 +300,9 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package-info" />
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -238,18 +312,18 @@
       <find>base</find>
       <find>limi</find>
       <find>list</find>
-      <find>limit</find>
       <find>selectByExampleWithRowbounds</find>
       <find>fdate</find>
       <find>date</find>
       <find>sys</find>
       <find>sysac</find>
+      <find>limit</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
     <option name="projectSyncType">
       <map>
         <entry key="D:/android/weixin/WechatHook-Dusan-master" value="PREVIEW" />
@@ -266,24 +340,40 @@
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/plugins/LimitPlugin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/model/XQuery.java" />
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustData.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustResult.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustDataExample.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustDataResult.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/test/Controller.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/spring-mybatis.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IAdmAccount.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java" />
-        <option value="$PROJECT_DIR$/src/test/Mybatis.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/comm/EncryptUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/menu.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/model/TmpMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java" />
+        <option value="$PROJECT_DIR$/src/test/Mybatis.java" />
+        <option value="$PROJECT_DIR$/src/test/Init" />
+        <option value="$PROJECT_DIR$/target/classes/menu.xml" />
+        <option value="$PROJECT_DIR$/src/test/InitData.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IKsmenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IKsMenu.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/KsMenu.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Controller.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/IAdmAccount.java" />
+        <option value="$PROJECT_DIR$/src/test/java/InitData.java" />
+        <option value="$PROJECT_DIR$/src/test/java/Mybatis.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/comm/ExampleUitl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/KsMenuImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceBase.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceView.java" />
       </list>
     </option>
   </component>
@@ -303,8 +393,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="D:\maven\apache-maven-3.5.2\repository" />
-        <option name="userSettingsFile" value="D:\maven\apache-maven-3.5.2\conf\settings.xml" />
+        <option name="localRepository" value="$USER_HOME$/apache-maven-3.6.0/repository" />
+        <option name="mavenHome" value="$USER_HOME$/apache-maven-3.6.0" />
+        <option name="userSettingsFile" value="$USER_HOME$/apache-maven-3.6.0/conf/settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -325,11 +416,14 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="348" />
-    <option name="y" value="411" />
-    <option name="width" value="1400" />
-    <option name="height" value="748" />
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="50" />
+    <option name="y" value="23" />
+    <option name="width" value="1230" />
+    <option name="height" value="777" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -419,23 +513,32 @@
       </profile-state>
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="sccmcctv" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sccmcctv" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="sccmcctv" type="58d84e3e:PackageViewProjectNode" />
+              <item name="sccmcctv" type="616d4139:PackageViewModuleNode" />
+              <item name="com.kennysoft" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -454,55 +557,36 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="sccmcctv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sccmcctv" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sccmcctv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sccmcctv" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="sccmcctv" type="b2602c69:ProjectViewProjectNode" />
-              <item name="sccmcctv" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="classes" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.5/mybatis-3.4.5.pom" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\java\sccmcctv\src\main\webapp\WEB-INF" />
-      <recent name="D:\java\sccmcctv\src\main\resources" />
-      <recent name="D:\java\sccmcctv\src\main\java" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\java\sccmcctv\src\main" />
       <recent name="D:\java\sccmcctv\src\main\java" />
       <recent name="D:\java\sccmcctv\src\main\webapp\WEB-INF" />
       <recent name="D:\java\sccmcctv\src\main\java\com\kennysoft\controller" />
       <recent name="D:\java\sccmcctv\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="D:\java\sccmcctv\src\main\webapp\WEB-INF" />
+      <recent name="D:\java\sccmcctv\src\main\resources" />
+      <recent name="D:\java\sccmcctv\src\main\java" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -517,110 +601,75 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.sccmcctv">
+  <component name="RunManager" selected="JUnit.Mybatis.mybatis_total">
     <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
+    </configuration>
+    <configuration name="Init" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Init" />
+      <module name="sccmcctv" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="InitData" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="InitData" />
+      <module name="sccmcctv" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
     </configuration>
-    <configuration name="Controller.testHomePage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="InitData.main" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sccmcctv" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Controller" />
-      <option name="METHOD_NAME" value="testHomePage" />
+      <option name="MAIN_CLASS_NAME" value="InitData" />
+      <option name="METHOD_NAME" value="main" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration name="Mybatis.mybatis_cust_method" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+    <configuration name="InitData.menuTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sccmcctv" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="InitData" />
+      <option name="METHOD_NAME" value="menuTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="Mybatis.mybatis_total" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="sccmcctv" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Mybatis" />
-      <option name="METHOD_NAME" value="mybatis_cust_method" />
+      <option name="METHOD_NAME" value="mybatis_total" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Mybatis.mybatis_insert_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="sccmcctv" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Mybatis" />
-      <option name="METHOD_NAME" value="mybatis_insert_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="Mybatis.mybatis_limit_test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="sccmcctv" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Mybatis" />
-      <option name="METHOD_NAME" value="mybatis_limit_test" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
       <patterns />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" />
@@ -630,48 +679,13 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
-      <envs />
       <patterns />
     </configuration>
-    <configuration name="sccmcctv [mybatis-generator:generate]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
-      <MavenSettings>
-        <option name="myGeneralSettings" />
-        <option name="myRunnerSettings" />
-        <option name="myRunnerParameters">
-          <MavenRunnerParameters>
-            <option name="profiles">
-              <set />
-            </option>
-            <option name="goals">
-              <list>
-                <option value="mybatis-generator:generate" />
-                <option value="-e" />
-              </list>
-            </option>
-            <option name="profilesMap">
-              <map />
-            </option>
-            <option name="resolveToWorkspace" value="true" />
-            <option name="workingDirPath" value="$PROJECT_DIR$" />
-          </MavenRunnerParameters>
-        </option>
-      </MavenSettings>
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -684,15 +698,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -707,7 +718,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="37091" />
       </RunnerSettings>
@@ -757,7 +767,7 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
     </configuration>
-    <configuration name="sccmcctv" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.4" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="sccmcctv" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.13" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/sccmcctv" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
@@ -776,7 +786,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="37091" />
       </RunnerSettings>
@@ -831,32 +840,23 @@
         </option>
       </method>
     </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <list size="6">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.sccmcctv" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.Mybatis.mybatis_insert_test" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.Mybatis.mybatis_limit_test" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.Mybatis.mybatis_cust_method" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.Controller.testHomePage" />
-      <item index="5" class="java.lang.String" itemvalue="Maven.sccmcctv [mybatis-generator:generate]" />
+    <list>
+      <item itemvalue="Tomcat Server.sccmcctv" />
+      <item itemvalue="Application.Init" />
+      <item itemvalue="Application.InitData" />
+      <item itemvalue="JUnit.InitData.main" />
+      <item itemvalue="JUnit.InitData.menuTest" />
+      <item itemvalue="JUnit.Mybatis.mybatis_total" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Maven.sccmcctv [mybatis-generator:generate]" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.Controller.testHomePage" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.Mybatis.mybatis_cust_method" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.Mybatis.mybatis_limit_test" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.Mybatis.mybatis_insert_test" />
+      <list>
+        <item itemvalue="JUnit.Mybatis.mybatis_total" />
+        <item itemvalue="JUnit.InitData.menuTest" />
+        <item itemvalue="JUnit.InitData.main" />
+        <item itemvalue="Application.InitData" />
+        <item itemvalue="Application.Init" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -880,43 +880,47 @@
       <workItem from="1542872160605" duration="7419000" />
       <workItem from="1542880790997" duration="1001000" />
       <workItem from="1542899225505" duration="3665000" />
+      <workItem from="1543386566672" duration="1229000" />
+      <workItem from="1543409948881" duration="584000" />
+      <workItem from="1543412070697" duration="37049000" />
+      <workItem from="1547704068261" duration="526000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Controller_testHomePage - 2018.11.22 at 14h 31m 03s.xml">
-      <configuration name="Controller.testHomePage" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.23 at 22h 51m 58s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_testHomePage - 2018.11.22 at 14h 31m 47s.xml">
-      <configuration name="Controller.testHomePage" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.23 at 22h 52m 04s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_testHomePage - 2018.11.22 at 14h 33m 19s.xml">
-      <configuration name="Controller.testHomePage" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.23 at 22h 53m 51s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_testHomePage - 2018.11.22 at 14h 38m 38s.xml">
-      <configuration name="Controller.testHomePage" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.23 at 22h 54m 16s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Controller_testHomePage - 2018.11.22 at 14h 38m 52s.xml">
-      <configuration name="Controller.testHomePage" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.23 at 22h 54m 44s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatis_mybatis_cust_method - 2018.11.21 at 16h 07m 55s.xml">
-      <configuration name="Mybatis.mybatis_cust_method" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.24 at 08h 10m 20s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatis_mybatis_cust_method - 2018.11.21 at 16h 08m 22s.xml">
-      <configuration name="Mybatis.mybatis_cust_method" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.24 at 08h 10m 33s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatis_mybatis_cust_method - 2018.11.21 at 16h 09m 23s.xml">
-      <configuration name="Mybatis.mybatis_cust_method" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.24 at 08h 11m 19s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatis_mybatis_cust_method - 2018.11.21 at 16h 09m 51s.xml">
-      <configuration name="Mybatis.mybatis_cust_method" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.24 at 08h 20m 11s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Mybatis_mybatis_cust_method - 2018.11.21 at 16h 15m 07s.xml">
-      <configuration name="Mybatis.mybatis_cust_method" configurationId="JUnit" />
+    <history-entry file="Mybatis_mybatis_total - 2018.12.24 at 19h 41m 32s.xml">
+      <configuration name="Mybatis.mybatis_total" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="67787000" />
+    <option name="totallyTimeSpent" value="107175000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -928,42 +932,43 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-4" y="-4" width="1928" height="1038" extended-state="6" />
+    <frame x="50" y="23" width="1230" height="777" extended-state="0" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6917647" sideWeight="0.12660944" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.09603004" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28235295" sideWeight="0.49785408" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24588235" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40823528" sideWeight="0.87339056" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.67294115" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29667383" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.12660944" side_tool="true" weight="0.6917647" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.32941177" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.17424242" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="right" id="CDI" order="9" weight="0.3299356" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info anchor="right" id="Database" order="4" weight="0.3299356" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="JSF" order="10" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.45147058" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32941177" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="bottom" id="Java Enterprise" order="8" weight="0.32941177" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.87339056" weight="0.30588236" />
+      <window_info anchor="bottom" id="Spring" order="13" weight="0.67294115" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.32941177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29377106" />
+      <window_info anchor="right" id="Bean Validation" order="11" weight="0.3299356" />
+      <window_info id="Web" order="2" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.24558823" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -976,484 +981,376 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/Mybatis.java</url>
-          <line>64</line>
+          <url>file://$PROJECT_DIR$/src/test/java/InitData.java</url>
+          <line>55</line>
           <properties />
-          <option name="timeStamp" value="5" />
+          <option name="timeStamp" value="11" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java</url>
-          <line>25</line>
+          <url>file://$PROJECT_DIR$/src/test/java/Mybatis.java</url>
+          <line>67</line>
           <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java</url>
-          <line>31</line>
-          <properties />
-          <option name="timeStamp" value="7" />
+          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="10" />
+      <option name="time" value="27" />
     </breakpoint-manager>
-    <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="59">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1476">
-          <caret line="41" column="57" lean-forward="false" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="1181" column="12" lean-forward="false" selection-start-line="1181" selection-start-column="12" selection-end-line="1181" selection-end-column="12" />
-          <folding>
-            <element signature="n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XQueryResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-180">
-          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XQueryStyle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XRspJsonPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-540">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/GenLimit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="22" column="49" lean-forward="false" selection-start-line="22" selection-start-column="49" selection-end-line="22" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.5.RELEASE/spring-test-4.2.5.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestMethodCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="213">
-          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.5.RELEASE/spring-test-4.2.5.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestClassCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.5.RELEASE/spring-test-4.2.5.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunAfterTestClassCallbacks.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="21" column="45" lean-forward="false" selection-start-line="21" selection-start-column="45" selection-end-line="21" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.2.5.RELEASE/spring-test-4.2.5.RELEASE.jar!/org/springframework/test/context/junit4/SpringJUnit4ClassRunner.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="87" column="0" lean-forward="false" selection-start-line="87" selection-start-column="0" selection-end-line="87" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XPagePara.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-660">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceView.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceBase.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="497">
-          <caret line="100" column="43" lean-forward="false" selection-start-line="100" selection-start-column="37" selection-end-line="100" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="22" column="5" lean-forward="false" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/src.zip!/java/util/Date.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1966">
-          <caret line="616" column="0" lean-forward="false" selection-start-line="616" selection-start-column="0" selection-end-line="616" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustDataExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-504">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustDataResult.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-354">
-          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XRspJson.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="30" column="16" lean-forward="false" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="10" lean-forward="false" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/target/sccmcctv/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-909">
-          <caret line="28" column="19" lean-forward="true" selection-start-line="28" selection-start-column="19" selection-end-line="28" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/project-navi.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="34" lean-forward="false" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/AdmAccount.java" />
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-89">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        <state relative-caret-position="15">
+          <caret line="1" column="1" selection-start-line="1" selection-start-column="1" selection-end-line="1" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/controller/HomeController.java" />
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ObjProgramMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="110">
+          <caret line="132" column="13" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/encodings.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjSeriesMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="60">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/misc.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/ObjProgramMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="-157">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/modules.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/home/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="195">
+          <caret line="13" column="10" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/uiDesigner.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sccmcctv.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1986">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/internal/runners/model/ReflectiveCallable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/BlockJUnit4ClassRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1656">
-          <caret line="71" column="0" lean-forward="false" selection-start-line="71" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runners/ParentRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9900">
-          <caret line="316" column="0" lean-forward="false" selection-start-line="316" selection-start-column="0" selection-end-line="316" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.11/junit-4.11-sources.jar!/org/junit/runner/JUnitCore.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5040">
-          <caret line="164" column="0" lean-forward="false" selection-start-line="164" selection-start-column="0" selection-end-line="164" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/LogsMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1944">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/AdmAccountMapper.xml" />
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/TvPlayMapper.xml" />
     <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
-          <caret line="44" column="29" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="1035">
+          <caret line="69" column="34" selection-start-line="69" selection-start-column="34" selection-end-line="69" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/AdmAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XOrderStyle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="131">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/AdmAccountExample.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XPagePara.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="2" column="15" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/IAdmAccount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XRspJson.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-          <folding />
+        <state relative-caret-position="15">
+          <caret line="30" column="16" selection-start-line="30" selection-start-column="16" selection-end-line="30" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XRspJsonPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="21" column="13" lean-forward="false" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#1625#1637#0" expanded="false" />
-          </folding>
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustDataExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ZCustDataResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="31" selection-start-line="31" selection-end-line="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/ContentClickMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-208" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapping/WsLogMapper.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/ContentDown.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3689">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/menu.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="50" selection-start-line="10" selection-start-column="50" selection-end-line="10" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/TmpMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/controller/AdmAccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="792">
-          <caret line="35" column="35" lean-forward="false" selection-start-line="35" selection-start-column="35" selection-end-line="35" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="271">
+          <caret line="36" column="28" selection-start-line="36" selection-start-column="28" selection-end-line="36" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/AdmAccountMapper.java">
+    <entry file="file://$PROJECT_DIR$/target/classes/menu.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Mybatis.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="30" column="24" lean-forward="false" selection-start-line="30" selection-start-column="24" selection-end-line="30" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/Controller.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="1" column="20" lean-forward="false" selection-start-line="1" selection-start-column="20" selection-end-line="1" selection-end-column="20" />
-          <folding>
-            <element signature="n#project#0;n#!!top" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-beans/4.2.5.RELEASE/spring-beans-4.2.5.RELEASE.jar!/org/springframework/beans/factory/support/AbstractAutowireCapableBeanFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="304" column="0" lean-forward="false" selection-start-line="304" selection-start-column="0" selection-end-line="304" selection-end-column="0" />
-          <folding>
-            <marker date="1518838257403" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1518838257403" expanded="false" signature="165:3356" ph="..." />
-            <marker date="1518838257403" expanded="true" signature="4033:4746" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="4825:4902" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="4990:5057" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="5121:5132" ph=" { " />
-            <marker date="1518838257403" expanded="false" signature="5166:5172" ph=" }" />
-            <marker date="1518838257403" expanded="true" signature="5266:5337" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="5405:5416" ph=" { " />
-            <marker date="1518838257403" expanded="false" signature="5452:5458" ph=" }" />
-            <marker date="1518838257403" expanded="true" signature="5536:5607" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="5703:5792" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="5845:5856" ph=" { " />
-            <marker date="1518838257403" expanded="false" signature="5894:5900" ph=" }" />
-            <marker date="1518838257403" expanded="false" signature="5957:5968" ph=" { " />
-            <marker date="1518838257403" expanded="false" signature="6010:6016" ph=" }" />
-            <marker date="1518838257403" expanded="true" signature="6094:6727" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="6799:7068" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="7120:7510" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="7604:8453" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="8563:8663" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="8779:8991" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="9105:10142" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="9572:9646" ph="run() → {" />
-            <marker date="1518838257403" expanded="false" signature="9833:9856" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="10269:10787" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="10889:11176" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="11249:11342" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="11466:11892" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="12015:12440" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="12491:12621" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="12740:14144" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="14248:18319" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="15455:15550" ph="getObject() → {" />
-            <marker date="1518838257403" expanded="false" signature="15674:15693" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="18424:19372" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="19481:19936" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="20049:24420" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="24508:26476" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="24531:24615" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="24590:24605" ph="{}" />
-            <marker date="1518838257403" expanded="false" signature="25241:25379" ph="doWith(method) → {" />
-            <marker date="1518838257403" expanded="false" signature="25696:25723" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="26575:27365" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="27471:28698" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="28807:29858" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="30001:30685" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="30776:31471" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="31596:32162" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="32265:33855" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="33991:34716" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="34813:35725" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="34978:35052" ph="run() → {" />
-            <marker date="1518838257403" expanded="false" signature="35236:35259" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="35847:35961" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="36097:36208" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="36299:39458" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="39582:40534" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="40658:42702" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="42802:43432" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="43544:44114" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="44211:44651" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="44728:44943" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="45111:45907" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="46021:49638" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="49754:50177" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="50281:51373" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="50376:50446" ph="run() → {" />
-            <marker date="1518838257403" expanded="false" signature="50588:50607" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="51441:51913" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="52029:53397" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="52508:52612" ph="run() → {" />
-            <marker date="1518838257403" expanded="false" signature="52749:52776" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="53518:55723" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="54582:54682" ph="run() → {" />
-            <marker date="1518838257403" expanded="false" signature="54804:54827" ph="}" />
-            <marker date="1518838257403" expanded="false" signature="54903:55007" ph="run() → {" />
-            <marker date="1518838257403" expanded="false" signature="55122:55149" ph="}" />
-            <marker date="1518838257403" expanded="true" signature="55811:55900" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="55954:56058" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="56149:56396" ph="{...}" />
-            <marker date="1518838257403" expanded="true" signature="56249:56310" ph="{...}" />
-            <marker date="1518838257403" expanded="false" signature="56353:56368" ph=" { " />
-            <marker date="1518838257403" expanded="false" signature="56380:56390" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2664">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="14" selection-end-line="6" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-144">
-          <caret line="44" column="35" lean-forward="false" selection-start-line="44" selection-start-column="29" selection-end-line="44" selection-end-column="35" />
-          <folding />
+        <state relative-caret-position="255">
+          <caret line="17" column="8" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mvc.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1441">
-          <caret line="20" column="31" lean-forward="false" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-          <folding />
+        <state relative-caret-position="750">
+          <caret line="50" column="63" selection-start-line="50" selection-start-column="54" selection-end-line="50" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/spring-mybatis.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="37" column="49" lean-forward="false" selection-start-line="37" selection-start-column="49" selection-end-line="37" selection-end-column="49" />
-          <folding />
+        <state relative-caret-position="-336">
+          <caret line="12" column="67" lean-forward="true" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Controller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/GenLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/InitData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/IKsMenu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XOrder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-52">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XQueryResult.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/IAdmAccount.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XQueryStyle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.0/repository/junit/junit/4.11/junit-4.11.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.0/repository/junit/junit/4.11/junit-4.11.jar!/org/junit/runners/model/FrameworkMethod.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/XQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="35" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/comm/EncryptUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/apache-maven-3.6.0/repository/log4j/log4j/1.2.17/log4j-1.2.17.jar!/org/apache/log4j/Logger.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="333" selection-start-line="333" selection-end-line="333" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/ClassLoader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="508" selection-start-line="508" selection-end-line="508" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_171.jdk/Contents/Home/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="2131" selection-start-line="2131" selection-end-line="2131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/Mybatis.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="825">
+          <caret line="65" column="23" selection-start-line="65" selection-start-column="23" selection-end-line="65" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/mapper/KsMenuMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="885">
+          <caret line="63" column="17" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/AdmAccountImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="101" column="31" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/model/KsMenuExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="50" column="16" selection-start-line="50" selection-start-column="16" selection-end-line="50" selection-end-column="16" />
+          <folding>
+            <element signature="e#1063#1064#0" expanded="true" />
+            <element signature="e#1119#1120#0" expanded="true" />
+            <element signature="e#1367#1368#0" expanded="true" />
+            <element signature="e#1417#1418#0" expanded="true" />
+            <element signature="e#24016#24017#0" expanded="true" />
+            <element signature="e#24047#24048#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/comm/ExampleUitl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/impl/KsMenuImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="56" column="9" selection-start-line="56" selection-start-column="9" selection-end-line="56" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="39" column="22" selection-start-line="39" selection-start-column="22" selection-end-line="39" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/kennysoft/service/XIServiceView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
         </state>
       </provider>
     </entry>

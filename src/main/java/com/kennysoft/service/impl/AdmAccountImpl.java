@@ -12,20 +12,20 @@ import java.util.List;
 @Service("AdmAccountImpl")
 public class AdmAccountImpl  implements IAdmAccount {
     @Resource
-    private AdmAccountMapper mapper;
+    private KsAdminMapper mapper;
 
     @Override
-    public AdmAccount get(Integer id) {
+    public KsAdmin get(Integer id) {
         return null;
     }
 
     @Override
-    public AdmAccount get(XQuery xQuery) {
+    public KsAdmin get(XQuery xQuery) {
         return null;
     }
 
     @Override
-    public int save(AdmAccount m) {
+    public int save(KsAdmin m) {
         int ret =0;
         if(null !=m)
         {
@@ -63,19 +63,19 @@ public class AdmAccountImpl  implements IAdmAccount {
     }
 
     @Override
-    public XQueryResult<AdmAccount> list(XPagePara xPagePara, XOrder xOrder) {
+    public XQueryResult<KsAdmin> list(XPagePara xPagePara, XOrder xOrder) {
         //return null;
-        AdmAccountExample exa  = new AdmAccountExample();
-        AdmAccountExample.Criteria cri= exa.createCriteria();
+        KsAdminExample exa  = new KsAdminExample();
+        KsAdminExample.Criteria cri= exa.createCriteria();
         cri.andIdIsNotNull();
-        cri.andAccountIsNotNull();
+        cri.andKsLoginIsNotNull();
 
-        XQueryResult<AdmAccount> ret  = new XQueryResult<AdmAccount>();
+        XQueryResult<KsAdmin> ret  = new XQueryResult<KsAdmin>();
         RowBounds rb = new RowBounds();
         exa.setOffset(xPagePara.getOffset());
         exa.setLimit(xPagePara.getLimit());
 
-        List<AdmAccount> list  = mapper.selectByExample(exa);
+        List<KsAdmin> list  = mapper.selectByExample(exa);
         ret.setTotal(mapper.countByExample(exa));
         ret.setList((list));
 
@@ -84,22 +84,22 @@ public class AdmAccountImpl  implements IAdmAccount {
     }
 
     @Override
-    public XQueryResult<AdmAccount> list(XQuery xQuery, XPagePara xPagePara, XOrder xOrder) {
+    public XQueryResult<KsAdmin> list(XQuery xQuery, XPagePara xPagePara, XOrder xOrder) {
         return null;
     }
 
     @Override
-    public XQueryResult<AdmAccount> list(List<XQuery> queries, XPagePara xPagePara, XOrder xOrder) {
+    public XQueryResult<KsAdmin> list(List<XQuery> queries, XPagePara xPagePara, XOrder xOrder) {
         return null;
     }
 
     @Override
-    public XQueryResult<AdmAccount> list(XQuery xQuery, XPagePara xPagePara, List<XOrder> xOrders) {
+    public XQueryResult<KsAdmin> list(XQuery xQuery, XPagePara xPagePara, List<XOrder> xOrders) {
         return null;
     }
 
     @Override
-    public XQueryResult<AdmAccount> list(List<XQuery> queries, XPagePara xPagePara, List<XOrder> xOrders) {
+    public XQueryResult<KsAdmin> list(List<XQuery> queries, XPagePara xPagePara, List<XOrder> xOrders) {
         return null;
     }
     @Override

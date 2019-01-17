@@ -2,26 +2,31 @@ import java.io.File;
 import java.util.Iterator;
 import java.util.List;
 
-
-import com.kennysoft.mapper.KsMenuMapper;
+import com.kennysoft.model.KsMenu;
 import com.kennysoft.model.TmpMenu;
+import com.kennysoft.service.IKsMenu;
 import org.apache.log4j.Logger;
 import org.dom4j.Document;
 import org.dom4j.Element;
 import org.dom4j.io.SAXReader;
 import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
 import javax.annotation.Resource;
-import javax.print.DocFlavor;
 
 
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(locations = {"classpath:spring-mybatis.xml"})  //必须标注，否则不执行spring的注入
 public class InitData {
     private static Logger logger = Logger.getLogger(InitData.class);
+
     @Resource
-    private static KsMenuMapper ksMenuMapper;
+    private  IKsMenu service;
 
     @Test
-    public static void main(String[] args) {
+    public   void menuTest() {
         try {
             SAXReader reader = new SAXReader();
             Document document = reader.read(new File(InitData.class.getResource("menu.xml").getPath()));
@@ -32,6 +37,7 @@ public class InitData {
 
             TmpMenu menu = new TmpMenu();
             Iterator iterator = list.listIterator();
+            int ret =0;
             while(iterator.hasNext())
             {
                 Element element = (Element)iterator.next();
@@ -41,8 +47,13 @@ public class InitData {
                 menu.setOrder(element.attributeValue("order"));
                 menu.setIcon(element.attributeValue("icon"));
 
-                logger.info("size[*]"+ element.selectNodes("menu").size());
-                ksMenuMapper.insert(menu);
+                logger.info("children size[*]"+ element.selectNodes("menu").size());
+
+                KsMenu ksMenu = new KsMenu();
+                ksMenu.setId(0);
+                ksMenu.setKsText(menu.getText());
+                ksMenu.setKsValue(menu.getValue());
+                ret = service.save(ksMenu);
 
                 for(Object o : element.selectNodes("menu"))
                 {

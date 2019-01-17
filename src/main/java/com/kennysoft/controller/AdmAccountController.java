@@ -29,12 +29,12 @@ public class AdmAccountController {
     @RequestMapping(value = "/login",method = RequestMethod.GET)
     public   @ResponseBody
     XRspJson  login(HttpServletRequest request, Model model){
-        XRspJson<List<AdmAccount>> rsp =new XRspJson<>();
+        XRspJson<List<KsAdmin>> rsp =new XRspJson<>();
         XPagePara xPagePara= new XPagePara();
         XOrder xOrder = new XOrder();
         xPagePara.setLimit(10);
         xPagePara.setOffset(10000);
-        XQueryResult<AdmAccount> ret = service.list(xPagePara,xOrder);
+        XQueryResult<KsAdmin> ret = service.list(xPagePara,xOrder);
         rsp.setRet(0);
         rsp.setMsg("success");
         rsp.setData(ret.getList());
